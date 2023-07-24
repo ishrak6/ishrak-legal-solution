@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ishrak Legal Solutions</title>
-  
+
       <!-- Link items -->
       <link rel="shortcut icon" href="images/favico.png" type="image/x-icon">
     
@@ -23,6 +23,52 @@
   
       <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
       <script src="https://cdn.tailwindcss.com"></script>
+
+          <!-- Link items -->
+
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+              fontFamily: {
+                   'Garamond': ['EB Garamond', 'serif']
+            },
+
+          colors: {
+             'primareys': '#B68C5A',
+             'head': '#414040',
+             'grey': '#414040',
+           },
+     
+          }
+        }
+      }
+    </script>
+
+  <style>
+
+      .box_container {
+          max-width: 1440px;
+          padding: 0px 60px;
+          width: 100%;
+          box-sizing: border-box;
+
+      }
+
+      @media screen and (max-width:599px) {
+          .box_container {
+              padding: 0px 15px;
+          }
+      }
+
+      @media screen and (min-width:600px) and (max-width:992px) {
+          .box_container {
+              padding: 0px 30px;
+          }
+      }
+
+  </style>
+  
 </head>
 <body>
   
