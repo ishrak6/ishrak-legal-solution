@@ -68,9 +68,62 @@
       }
 
   </style>
-  
+
 </head>
-<body>
+
+<body class="font-Garamond">
+  <header class="header py-5"> 
+    <div class="drawer ">
+     <input id="my-drawer-3" type="checkbox" class="drawer-toggle" /> 
+     <div class="drawer-content flex flex-col">
+       
+       <!-- Navbar -->
+       <div class=" box_container mx-auto flex justify-between  navbar bg-white">
+         <div class="flex-none lg:hidden">
+           <label for="my-drawer-3" class="btn btn-square btn-ghost">
+             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" class="inline-block w-6 h-6 stroke-current"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+           </label>
+         </div> 
+   
+         <div class="px-2 mx-2"><a class="flex items-center text-head font-extrabold text-lg md:text-4xl" href="#"><img class=" h-[30px]   md:h-[40px] mr-3" src="images/business.png" alt=""> justice</a></div>
+   
+         <div class="flex-none hidden lg:block">
+           <ul class="menu menu-horizontal">
+   
+             <!-- Navbar menu content here -->
+             <li ><a class="text-grey hover:bg-white text-lg font-semibold flex items-center ">Home</a></li>
+             <li ><a class="text-grey hover:bg-white text-lg font-semibold flex items-center ">Services <i class="fa-solid fa-angle-right"></i></a></li>
+             <li ><a class="text-grey hover:bg-white text-lg font-semibold flex items-center ">Cases <i class="fa-solid fa-angle-right"></i></a></li>
+             <li ><a class="text-grey hover:bg-white text-lg font-semibold flex items-center ">Blog <i class="fa-solid fa-angle-right"></i></a></li>
+             <li ><a class="text-grey hover:bg-white text-lg font-semibold flex items-center ">Contact Us <i class="fa-solid fa-angle-right"></i></a></li>
+           </ul>
+         </div>
+          <button class="btn hover:bg-primareys bg-primareys text-white md:px-10 text-xs md:text-lg capitalize"><a href="#">Free Consultation</a></button> 
+       </div>
+    
+     </div> 
+   
+      <!-- mobile headers  -->
+     <div class="drawer-side ">
+       <label for="my-drawer-3" class="drawer-overlay">
+       </label> 
+       <ul class="menu p-4 w-80 h-full bg-base-200">
+         <div class="close w-full ">
+               <a href="#"></a>
+         </div>
+        
+         <!-- Sidebar content here -->
+           <div class="">
+             <li><a>Sidebar Item 1</a></li>
+             <li><a>Sidebar Item 2</a></li>  
+           </div>
+         
+       </ul>
+       
+     </div>
+   </div>
+   </header>
+
   
 </body>
 </html>
